@@ -9,6 +9,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "yarn build",
     "dev": "tsc --watch",
     "build": "tsc",
     "dev-example": "webpack-dev-server --config example/webpack.config.js --inline --hot",
